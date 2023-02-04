@@ -14,7 +14,7 @@
 
     <header>
         <!-- navbar starts here -->
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar fixed-top navbar-expand-lg bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Bootstrap"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -28,13 +28,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#Backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#Subscribe">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -114,7 +114,7 @@
     <!-- main body starts here -->
     <main>
         <!-- catagories starts here -->
-        <section class="mb-5">
+        <section class="mb-5" style="height:200px;">
             <div class="container text-center my-5">
                 <div class="row g-2">
                     <div class="col-lg-4 col-md-6 col-sm-12">
@@ -142,7 +142,7 @@
         </section>
         <!-- catagories ends here -->
         <!-- shoe section starts here -->
-        <section class="container my-5">
+        <section class="container my-5" id="shoes">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -191,7 +191,7 @@
         </section>
         <!-- shoe section ends here -->
         <!-- bag section starts here -->
-        <section class="container my-5">
+        <section class="container my-5" id="Backpack">
             <h2>Bags</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -239,15 +239,16 @@
             </div>
         </section>
         <!-- bags section ends here -->
+
         <!-- feedback section starts here -->
-        <section style="height: 400px;"
+        <section style="height: 400px;" id="Subscribe"
             class="container d-flex justify-content-center align-items-center my-5 rounded-3 bg-color p-5">
             <div>
                 <h2>LET'S STAY IN TOUCH</h2>
                 <p>Get updates on sales, specials and more</p>
                 <form>
                     <div class="mb-3">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
                     <button type="submit" class="btn btn-warning">Submit</button>
                 </form>
